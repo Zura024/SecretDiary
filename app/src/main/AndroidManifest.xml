@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lakhs.secretdiary" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.example.lakhs.secretdiary.App">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ActivatedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".activity.SingUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".activity.DiaryActivity"
+            android:label="Secret Diary"
+            android:icon="@drawable/icon"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.MyDiaryActivity"
+            android:label="@string/my_diary_name"
+            android:icon="@drawable/icon"
+            android:screenOrientation="portrait"/>
+
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+        <receiver
+            android:name=".service.AlarmReceiver"
+            />
+
+    </application>
+
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

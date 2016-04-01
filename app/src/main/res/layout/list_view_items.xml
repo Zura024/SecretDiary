@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:listSelector="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/diary_view"
+        android:background="@drawable/edit_text"
+        android:listSelector="@android:color/transparent"
+        android:descendantFocusability="blocksDescendants">
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/visual_btn"
+            android:gravity="center_horizontal"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:textSize="20sp"
+            android:id="@+id/text_view_list"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/shelf"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+
+</LinearLayout>

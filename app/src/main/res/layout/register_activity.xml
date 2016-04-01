@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:windowSoftInputMode="stateAlwaysVisible"
+        android:layout_centerInParent="true"
+        android:background="@drawable/oldbg">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:paddingLeft="75dp"
+            android:maxLines="1"
+            android:id="@+id/login_edit_text"
+            android:hint=" username        "
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inputuser"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:paddingLeft="75dp"
+            android:maxLines="1"
+            android:id="@+id/register_edit_text"
+            android:hint=" password        "
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inputpass"
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/email_edit_text"
+            android:paddingLeft="75dp"
+            android:maxLines="1"
+            android:hint=" email           "
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inputemail"/>
+
+        <Button
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:onClick="registerUser"
+            android:hint="Sing Up"
+            android:id="@+id/register_btn_login"
+            android:background="@drawable/button_custom"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

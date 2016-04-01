@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Secret Diary</string>
+    <string name="my_diary_name">My Diary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="close_app">Press Back to exit application </string>
+    <string name="find_diary">Find Diary</string>
+    <string name="search_diary">Search by Title</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="password_sett_title">Set pin</string>
+    <string name="password_sett_description">change your password</string>
+    <string name="remainder_sett_title">Set Remainder</string>
+    <string name="remainder_sett_description">set remainder to notify something</string>
+    <string name="backup_sett_title">Backup</string>
+    <string name="backup_sett_description">send your diaries on email </string>
+    <string name="delete_sett_title">Delete Account</string>
+    <string name="delete_sett_description">delete your account from diary</string>
+    <string name="logout_sett_title">Logout</string>
+    <string name="logout_sett_description">logout from application</string>
+    <string name="sure_delete"> Are sure to delete your account ?</string>
+    <string name="alarm_notify"> Alarm Notification is  in improving state :) </string>
+    <string name="password_notify"> New password is too short </string>
+
+</resources>
